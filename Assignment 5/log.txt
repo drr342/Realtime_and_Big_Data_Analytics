@@ -1,0 +1,188 @@
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Apache Pig version 0.12.0-cdh5.15.0 (rexported) compiled May 24 2018, 04:19:29
+Logging error messages to: /home/drr342/rbda/hw5/pig_1539130226555.log
+Default bootup file /home/drr342/.pigbootup not found
+mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+fs.default.name is deprecated. Instead, use fs.defaultFS
+Connecting to hadoop file system at: hdfs://dumbo
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS
+Waited 0ms to delete file
+Pig features used in the script: GROUP_BY,ORDER_BY,CROSS
+{RULES_ENABLED=[AddForEach, ColumnMapKeyPrune, DuplicateForEachColumnRewrite, GroupByConstParallelSetter, ImplicitSplitInserter, LimitOptimizer, LoadTypeCastInserter, MergeFilter, MergeForEach, NewPartitionFilterOptimizer, PushDownForEachFlatten, PushUpFilter, SplitFilter, StreamTypeCastInserter], RULES_DISABLED=[FilterLogicExpressionSimplifier, PartitionFilterOptimizer]}
+mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+File concatenation threshold: 100 optimistic? false
+Choosing to move algebraic foreach to combiner
+Rewrite: POPackage->POForEach to POJoinPackage
+MR plan size before optimization: 4
+MR plan size after optimization: 4
+Pig script settings are added to the job
+mapred.job.reduce.markreset.buffer.percent is deprecated. Instead, use mapreduce.reduce.markreset.buffer.percent
+mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+Reduce phase detected, estimating # of required reducers.
+Using reducer estimator: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator
+BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=319
+Setting Parallelism to 1
+mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+creating jar file Job9129061921428108152.jar
+jar file Job9129061921428108152.jar created
+mapred.jar is deprecated. Instead, use mapreduce.job.jar
+Setting up single store job
+Key [pig.schematuple] is false, will not generate code.
+Starting process to move generated code to distributed cache
+Setting key [pig.schematuple.classes] with classes to deserialize []
+1 map-reduce job(s) waiting for submission.
+mapred.job.tracker.http.address is deprecated. Instead, use mapreduce.jobtracker.http.address
+fs.default.name is deprecated. Instead, use fs.defaultFS
+Total input paths to process : 1
+Total input paths to process : 1
+Total input paths (combined) to process : 1
+Total input paths to process : 1
+Total input paths to process : 1
+Total input paths (combined) to process : 1
+number of splits:2
+Submitting tokens for job: job_1535138147448_3033
+Submitted application application_1535138147448_3033
+The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1535138147448_3033/
+HadoopJobId: job_1535138147448_3033
+Processing aliases data,lines,results,words
+detailed locations: M: lines[6,8],lines[-1,-1],data[8,7],data[8,7],words[7,8],words[-1,-1],data[8,7],data[8,7] C:  R: results[9,10]
+0% complete
+6% complete
+12% complete
+25% complete
+Application state is completed. FinalApplicationStatus=SUCCEEDED. Redirecting to job history server
+Pig script settings are added to the job
+mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+Reduce phase detected, estimating # of required reducers.
+Using reducer estimator: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator
+BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=139
+Setting Parallelism to 1
+creating jar file Job3231298734177806363.jar
+jar file Job3231298734177806363.jar created
+Setting up single store job
+Key [pig.schematuple] is false, will not generate code.
+Starting process to move generated code to distributed cache
+Setting key [pig.schematuple.classes] with classes to deserialize []
+1 map-reduce job(s) waiting for submission.
+fs.default.name is deprecated. Instead, use fs.defaultFS
+Total input paths to process : 1
+Total input paths to process : 1
+Total input paths (combined) to process : 1
+number of splits:1
+Submitting tokens for job: job_1535138147448_3034
+Submitted application application_1535138147448_3034
+The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1535138147448_3034/
+HadoopJobId: job_1535138147448_3034
+Processing aliases 1-5,grouped_results
+detailed locations: M: grouped_results[10,18],1-5[10,27] C: grouped_results[10,18],1-5[10,27] R: grouped_results[10,18]
+37% complete
+50% complete
+Pig script settings are added to the job
+mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+Reduce phase detected, estimating # of required reducers.
+Using reducer estimator: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator
+BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=55
+Setting Parallelism to 1
+creating jar file Job8819243299389418712.jar
+jar file Job8819243299389418712.jar created
+Setting up single store job
+Key [pig.schematuple] is false, will not generate code.
+Starting process to move generated code to distributed cache
+Setting key [pig.schematuple.classes] with classes to deserialize []
+1 map-reduce job(s) waiting for submission.
+fs.default.name is deprecated. Instead, use fs.defaultFS
+Total input paths to process : 1
+Total input paths to process : 1
+Total input paths (combined) to process : 1
+number of splits:1
+Submitting tokens for job: job_1535138147448_3035
+Submitted application application_1535138147448_3035
+The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1535138147448_3035/
+HadoopJobId: job_1535138147448_3035
+Processing aliases 1-6
+detailed locations: M: 1-6[12,7] C:  R: 
+62% complete
+75% complete
+Pig script settings are added to the job
+mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+Reduce phase detected, estimating # of required reducers.
+Setting Parallelism to 1
+creating jar file Job6350507326493347804.jar
+jar file Job6350507326493347804.jar created
+Setting up single store job
+Key [pig.schematuple] is false, will not generate code.
+Starting process to move generated code to distributed cache
+Setting key [pig.schematuple.classes] with classes to deserialize []
+1 map-reduce job(s) waiting for submission.
+fs.default.name is deprecated. Instead, use fs.defaultFS
+Total input paths to process : 1
+Total input paths to process : 1
+Total input paths (combined) to process : 1
+number of splits:1
+Submitting tokens for job: job_1535138147448_3036
+Submitted application application_1535138147448_3036
+The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1535138147448_3036/
+HadoopJobId: job_1535138147448_3036
+Processing aliases 1-6
+detailed locations: M: 1-6[12,7] C:  R: 
+87% complete
+100% complete
+Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+2.6.0-cdh5.15.0	0.12.0-cdh5.15.0	drr342	2018-10-09 20:10:29	2018-10-09 20:12:09	GROUP_BY,ORDER_BY,CROSS
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTIme	AvgMapTime	MedianMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	MedianReducetime	Alias	Feature	Outputs
+job_1535138147448_3033	2	1	2	2	2	2	2	2	2	2	data,lines,results,words		
+job_1535138147448_3034	1	1	2	2	2	2	2	2	2	2	1-5,grouped_results	GROUP_BY,COMBINER	
+job_1535138147448_3035	1	1	2	2	2	2	2	2	2	2	1-6	SAMPLER	
+job_1535138147448_3036	1	1	2	2	2	2	2	2	2	2	1-6	ORDER_BY	hdfs://dumbo/user/drr342/hw5/output,
+
+Input(s):
+Successfully read 4 records from: "hdfs://dumbo/user/drr342/hw5/terms.txt"
+Successfully read 3 records from: "hdfs://dumbo/user/drr342/hw5/input.txt"
+
+Output(s):
+Successfully stored 4 records (35 bytes) in: "hdfs://dumbo/user/drr342/hw5/output"
+
+Counters:
+Total records written : 4
+Total bytes written : 35
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_1535138147448_3033	->	job_1535138147448_3034,
+job_1535138147448_3034	->	job_1535138147448_3035,
+job_1535138147448_3035	->	job_1535138147448_3036,
+job_1535138147448_3036
+
+
+Retrying connect to server: compute-1-4.local/10.0.255.240:43344. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+Retrying connect to server: compute-1-4.local/10.0.255.240:43344. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+Retrying connect to server: compute-1-4.local/10.0.255.240:43344. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+Application state is completed. FinalApplicationStatus=SUCCEEDED. Redirecting to job history server
+Retrying connect to server: compute-1-4.local/10.0.255.240:35292. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+Retrying connect to server: compute-1-4.local/10.0.255.240:35292. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+Retrying connect to server: compute-1-4.local/10.0.255.240:35292. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+Application state is completed. FinalApplicationStatus=SUCCEEDED. Redirecting to job history server
+Application state is completed. FinalApplicationStatus=SUCCEEDED. Redirecting to job history server
+Success!
+fs.default.name is deprecated. Instead, use fs.defaultFS
+fs.default.name is deprecated. Instead, use fs.defaultFS

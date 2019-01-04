@@ -1,0 +1,26 @@
+DANIEL RIVERA RUIZ
+drr342@nyu.edu
+
+Please use this template to provide your answers - one or two sentences is sufficient for each answer:
+
+1. In Step 4 of the Hive homework (red text), is there an unexpected result? If so, what is it and what is the reason for the result?
+    Nothing seems unexpected:
+        * w3 is importing the last field as a bigint, so the parser gets rid of the preceding plus sign.
+        * when w2 is dropped, its metadata is erased and therefore the table is no longer accessible.
+        * since all the tables are created with the external command, the actual data is not erased and w1, w3 continue to work normally.
+
+2. In Step 3 of the Impala homework (red text):
+     a) Did you notice a difference in the time required to execute this command from Impala:
+        select distinct year from w1;
+        Explain your observation with respect to the timing of the second run, what caused this result?
+    There was a considerable reduction in the second execution time with respect to the first one (0.11s compared to 3.0s).
+    Also, either of the two executions is considerably faster compared to the Hive query. This reveals that Impala performs query optimization
+    (which is why it was faster the second time), but also that it is in general much faster than Hive. Since Impala is built directly on top
+    of YARN, it doesn't introduce the additional overhead of the intermediate MapReduce layer.
+
+     b) Did you notice a difference in the time required to execute this same command from Hive:
+        select distinct year from w1;
+        Explain your observation with respect to the timing of the second run, what caused this result?
+    In Hive, the command took similar amounts of time to execute in both occasions (20.55s and 22.402s).
+    This result reveals the nature of Hive, which is built on top of MapReduce and relies on it to perform the queries. Therefore, even though
+    the exact same query is executed twice, no optimization is performed and the MapReduce jobs required to fulfill it are executed again.

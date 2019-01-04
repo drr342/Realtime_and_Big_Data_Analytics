@@ -1,0 +1,14 @@
+a) allData:
+    NUMBER OF LINES = 1,079,891
+    TIME TAKEN = 10.482 s
+
+b) oneLog:
+    NUMBER OF LINES = 7,097
+    COMMAND TO DISPLAY ONE LINE OF DATA: oneLog.take(1).foreach(println)
+
+c) jpgLines:
+    NUMBER OF LINES = 64,978
+
+d) allData in Hive:
+    NUMBER OF LINES = 1,079,891
+    TIME TAKEN = 19.744 s
